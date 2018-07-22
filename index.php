@@ -25,7 +25,7 @@ $go2 = microtime(true);// Засекаем время старта второй 
 
 foreach ( $numbers as $value ) {// Перебираем значения $elements в массиве $numbers ивыводим на экран соответствующее сообщение
     if ( $elements == $value ) {
-        echo '<div>Да, ' . $element . ' в списке под номером ' .$key. ' :)</div>';
+        echo '<div>Да, ' . $elements . ' в списке под номером ' .$key. ' :)</div>';
         break;
     }
 }
